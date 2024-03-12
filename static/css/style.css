@@ -72,7 +72,6 @@ a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 5rem;
 }
 
 .text {
@@ -281,6 +280,7 @@ ul {
         justify-content: space-around;
         flex-wrap: wrap;
         width: 100%;
+        margin-bottom: 2rem
     }
 
     .contact_item {
