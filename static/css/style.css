@@ -1,0 +1,304 @@
+@font-face {
+    font-family: 'logo';
+    src: url('/static/fonts/ofont.ru_Cruinn.ttf') format('truetype');
+}
+
+html {
+    scroll-behavior: smooth;
+    display: flex;
+}
+
+body {
+    margin: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to bottom right, rgba(55, 112, 201, 0.82), rgba(248, 164, 98, 0.7));
+    transition: background 0.5s;
+    font-family: logo;
+
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    transition: background-color 0.3s;
+    padding: 1rem;
+    border-radius: 0.6rem;
+
+}
+
+a:hover {
+    background-color: white;
+}
+
+.top {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 5rem;
+    z-index: 1;
+    border-bottom: 1px solid #000;
+    border-radius: 0.5rem;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.logo, .navmenu {
+    font-size: 2rem;
+    font-weight: 700;
+    padding-left: 1.5rem;
+
+}
+
+.navmenu {
+    display: flex;
+    gap: 2rem;
+    padding-right: 2rem;
+}
+
+.main_info {
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.text {
+    font-size: 1.5rem;
+    text-align: justify;
+    font-weight: 700;
+
+}
+
+.foto_and_info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.foto_and_info_foto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 1.5rem;
+}
+
+.foto_and_info_info {
+    margin: 1.5rem;
+}
+
+ul {
+    line-height: 1.5;
+}
+
+.my_photo {
+    width: 500px;
+    height: 500px;
+    border-radius: 1.5rem;
+}
+
+.skills-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.header-text {
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 700;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.skills-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 98vw;
+    justify-content: space-between;
+    align-items: start;
+    flex-wrap: wrap;
+}
+
+.info-header {
+    justify-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-header::after {
+    content: "\25BC"; /* Значок стрелки вниз (▼) */
+    display: inline-block;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.info-header.expanded::after {
+    content: "\25B2"; /* Значок стрелки вверх (▲) */
+}
+
+
+.projects {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.proj_photo {
+    width: auto;
+    height: 300px;
+    border-radius: 1.5rem;
+}
+
+/* Для экранов до 768px */
+@media (max-width: 768px) {
+    .top {
+        height: 3rem; /* увеличиваем высоту блока .top */
+        display: flex;
+    }
+
+    .main_info {
+        margin-top: 2rem; /* увеличиваем отступ сверху */
+    }
+
+    .info-header_port {
+        font-size: 1.25rem;
+        text-align: center;
+    }
+
+    .container {
+        flex-direction: row; /* меняем направление расположения элементов на колонку */
+    }
+
+    .logo, .navmenu {
+        font-size: 1.5rem;
+        gap: 0;
+        padding: 0;
+    }
+
+    .text {
+        font-size: 1.25rem;
+    }
+
+    .foto_and_info {
+        flex-direction: column; /* меняем направление расположения элементов на колонку */
+    }
+
+    .my_photo {
+        width: 300px; /* уменьшаем ширину фото */
+        height: 300px; /* уменьшаем высоту фото */
+    }
+
+    .skills-list {
+        grid-template-columns: 1fr; /* меняем количество столбцов в сетке */
+    }
+
+    .proj_photo {
+        width: auto;
+        height: 250px;
+        border-radius: 0.5rem;
+    }
+
+    .contact_box {
+        padding-left: 1.5rem;
+        padding-right: 0.5rem;
+        padding-bottom: 1.5rem;
+        border-radius: 0.5rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .contact_item {
+        border: 1px solid #000;
+        border-radius: 1rem;
+        padding: 1rem;
+        margin-top: .5rem;
+        align-content: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 21rem;
+    }
+}
+
+/* Для экранов больше 768px */
+@media (min-width: 769px) {
+    .top {
+        height: 5rem; /* возвращаем высоту блока .top к изначальному значению */
+    }
+
+    .container {
+        flex-direction: row; /* возвращаем направление расположения элементов к изначальному значению */
+    }
+
+    .main_info {
+        margin-top: 5rem; /* возвращаем отступ сверху к изначальному значению */
+    }
+
+    .foto_and_info {
+        flex-direction: row; /* возвращаем направление расположения элементов к изначальному значению */
+    }
+
+    .my_photo {
+        width: 500px; /* возвращаем ширину фото к изначальному значению */
+        height: 500px; /* возвращаем высоту фото к изначальному значению */
+    }
+
+    .skills-list {
+        grid-template-columns: 1fr 1fr 1fr; /* возвращаем количество столбцов в сетке к изначальному значению */
+    }
+
+    .contact_box {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .contact_item {
+        align-content: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 21rem;
+        border: 1px solid #000;
+        border-radius: 1rem;
+    }
+}
+
+.info-content_port {
+    border-bottom: 2px solid #000;
+    border-radius: 1.5rem;
+}
+
+.progress{
+    display: flex;
+    flex-direction: row;
+}
