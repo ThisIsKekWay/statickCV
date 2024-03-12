@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <link rel="stylesheet" href="static/css/style.css">
+    <title> Контакты  | Резюме </title>
+</head>
+<body>
+<div class="main">
+    
+    
+        
+<div class="top">
+    <div class="container">
+        <div class="logo">
+            <a href="/">Главная</a>
+        </div>
+        <div class="navmenu">
+            <a href="/portfolio">Портфолио</a>
+            <a href="/contacts">Контакты</a>
+        </div>
+    </div>
+</div>
+
+    
+
+    
+        
+    <div class="main_info">
+        <div class="info-header_port">
+            <h1>Как связаться со мной</h1>
+        </div>
+
+        <div class="contact_box">
+
+            <div class="contact_item">
+                <h2 class="contactbox_header">Telegram</h2>
+                <img src="/static/img/QR-Code-TG.png"
+                     class="text-center mx-auto"
+                     width="330"
+                     height="330"
+                     border="0"
+                     title="QR код">
+                <a href="https://t.me/Sugar_King"
+                   class="w-full mt-6 flex justify-center hover:underline" style="font-size: 1rem; font-weight: 700">
+                    @Sugar_King
+                </a>
+            </div>
+
+            <div class="contact_item">
+                <h2 class="contactbox_header">Информация</h2>
+                <h3 class="text-lg text-center">E-mail</h3>
+                <h4 class="mb-2 text-center">kkozlov1997@mail.ru</h4><br>
+
+            </div>
+
+            <div class="contact_item">
+                <h2 class="contactbox_header">Github</h2>
+                <img src="/static/img/QR-Code-Git.png"
+                     class="text-center mx-auto"
+                     width="330"
+                     height="330"
+                     border="0"
+                     title="QR код">
+                <a href="https://github.com/ThisIsKekWay"
+                   class="w-full py-8 flex justify-center hover:underline" style="font-size: 1rem; font-weight: 700"
+                   target="_blank">
+                    ThisIsKekWay
+                </a>
+            </div>
+        </div>
+
+    </div>
+
+    
+
+</div>
+<script src="static/js/toggle.js"></script>
+</body>
+</html>
