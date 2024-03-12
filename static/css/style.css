@@ -188,6 +188,7 @@ ul {
         font-size: 1.25rem;
         text-align: center;
     }
+    
 
     .container {
         flex-direction: row; /* меняем направление расположения элементов на колонку */
@@ -220,6 +221,7 @@ ul {
         width: auto;
         height: 250px;
         border-radius: 0.5rem;
+        width: 99vw;
     }
 
     .contact_box {
