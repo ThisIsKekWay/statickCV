@@ -223,14 +223,11 @@ ul {
     }
 
     .contact_box {
-        padding-left: 1.5rem;
-        padding-right: 0.5rem;
-        padding-bottom: 1.5rem;
-        border-radius: 0.5rem;
         display: flex;
-        flex-direction: row;
-        justify-content: space-between;
+        justify-content: space-around;
         flex-wrap: wrap;
+        width: 100%;
+        margin-bottom: 2rem
     }
 
     .contact_item {
@@ -273,12 +270,16 @@ ul {
         grid-template-columns: 1fr 1fr 1fr; /* возвращаем количество столбцов в сетке к изначальному значению */
     }
 
-    .contact_box {
+
+        .contact_box {
+        padding-left: 1.5rem;
+        padding-right: 0.5rem;
+        padding-bottom: 1.5rem;
+        border-radius: 0.5rem;
         display: flex;
-        justify-content: space-around;
+        flex-direction: row;
+        justify-content: space-between;
         flex-wrap: wrap;
-        width: 100%;
-        margin-bottom: 2rem
     }
 
     .contact_item {
