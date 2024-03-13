@@ -231,6 +231,7 @@ ul {
     }
 
     .contact_item {
+        width: 90vw;
         align-content: center;
         display: flex;
         flex-direction: column;
