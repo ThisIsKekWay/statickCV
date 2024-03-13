@@ -28,6 +28,7 @@ a {
 
 }
 
+}
 a:hover {
     background-color: white;
 }
@@ -186,7 +187,7 @@ ul {
         font-size: 1.25rem;
         text-align: center;
     }
-    
+
 
     .container {
         flex-direction: row; /* меняем направление расположения элементов на колонку */
@@ -242,6 +243,7 @@ ul {
 
     body {
         color: #fff;
+    }
 }
 
 /* Для экранов больше 768px */
@@ -268,7 +270,7 @@ ul {
     }
 
 
-.contact_box {
+    .contact_box {
         display: flex;
         justify-content: space-around;
         flex-direction: row;
@@ -276,7 +278,7 @@ ul {
         margin-bottom: 2rem
     }
 
-.contact_item {
+    .contact_item {
         align-content: center;
         display: flex;
         flex-direction: column;
@@ -286,12 +288,14 @@ ul {
         border-radius: 1rem;
     }
 
-.info-content_port {
-    border-bottom: 2px solid #000;
-    border-radius: 1.5rem;
-}
+    .info-content_port {
+        border-bottom: 2px solid #000;
+        border-radius: 1.5rem;
+    }
 
-.progress{
-    display: flex;
-    flex-direction: row;
+    .progress {
+        display: flex;
+        flex-direction: row;
+    }
+
 }
