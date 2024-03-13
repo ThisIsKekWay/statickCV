@@ -126,7 +126,6 @@ ul {
     align-items: center;
     font-weight: 700;
     font-size: 1.5rem;
-    cursor: pointer;
 }
 
 .skills-list {
@@ -246,6 +245,9 @@ ul {
         justify-content: center;
         width: 21rem;
     }
+
+    body {
+        color: #fff;
 }
 
 /* Для экранов больше 768px */
