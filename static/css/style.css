@@ -271,7 +271,7 @@ ul {
 
 
     .contact_box {
-        width: 30%;
+        
         display: flex;
         justify-content: space-around;
         flex-direction: row;
@@ -280,6 +280,7 @@ ul {
     }
 
     .contact_item {
+        width: 30%;
         align-content: center;
         display: flex;
         flex-direction: column;
