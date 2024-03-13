@@ -271,7 +271,7 @@ ul {
 .contact_box {
         display: flex;
         justify-content: space-around;
-        flex-wrap: wrap;
+        flex-direction: column;
         width: 100%;
         margin-bottom: 2rem
     }
@@ -279,7 +279,7 @@ ul {
     .contact_item {
         align-content: center;
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         align-items: center;
         justify-content: center;
         border: 1px solid #000;
