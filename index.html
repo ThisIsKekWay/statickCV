@@ -4,12 +4,13 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <link rel="stylesheet" href="/statickCV/static/css/style.css">
-    <title> Главная  | Резюме </title>
+    <title> Главная | Резюме </title>
 </head>
 <body>
 <div class="main">
     <div class="main_info">
         <div class="foto_and_info">
+
             <div class="foto_and_info_foto">
                 <div class="foto_and_info_img">
                     <img class="my_photo" src="/statickCV/static/img/foto.jpg" alt="Какой-то чел">
@@ -35,188 +36,190 @@
                         </li>
                     </ul>
                 </div>
-
-        <div class="skills">
-            
-                
-    <div class="skills">
-        <div class="skills-container">
-            <div class="header-text">
-                <p>Навыки</p>
             </div>
-            <div class="skills-list">
-                <div class="info-container">
-                    <div class="info-header" onclick="toggleInfo(this)">
-                        Python<br>
-                        <progress value="85" max="100" class="progress"></progress>
+
+            <div class="skills">
+                <div class="skills-container">
+                    <div class="header-text">
+                        <p>Навыки</p>
                     </div>
-                    <div class="info-content" style="display: none;">
-                        <ul>
-                            <li>Знаю типы данных, операторы, управляющие конструкции.</li>
-                            <li>Опыт работы с модулями и библиотеками, такими как os, requests, json, datetime.</li>
-                            <li>Примеры: <a href="https://github.com/ThisIsKekWay/Deep_Python_Fantasies" >Учебные задания</a></li>
-                        </ul>
+                    <div class="skills-list">
+                        <div class="info-container">
+                            <div class="info-header" onclick="toggleInfo(this)">
+                                Python<br>
+                                <progress value="85" max="100" class="progress"></progress>
+                            </div>
+                            <div class="info-content" style="display: none;">
+                                <ul>
+                                    <li>Знаю типы данных, операторы, управляющие конструкции.</li>
+                                    <li>Опыт работы с модулями и библиотеками, такими как os, requests, json,
+                                        datetime.
+                                    </li>
+                                    <li>Примеры: <a href="https://github.com/ThisIsKekWay/Deep_Python_Fantasies">Учебные
+                                        задания</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="info-container">
+                            <div class="info-header" onclick="toggleInfo(this)">
+                                Django<br>
+                                <progress value="75" max="100" class="progress"></progress>
+                            </div>
+                            <div class="info-content" style="display: none;">
+                                <ul>
+                                    <li>Знаю структуру проекта.</li>
+                                    <li>Есть опыт работы с ORM</li>
+                                    <li>Умею работать с шаблонизатором, создавать формы.</li>
+                                    <li>Знаю как настроить админ-панель</li>
+                                    <li>Могу собрать рабочий билд маркетплейса. <a
+                                            href="https://kekway.pythonanywhere.com/">Проект</a></li>
+                                    <li>Код: <a href="https://github.com/ThisIsKekWay/marketplace">Ссылка</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="info-container">
+                            <div class="info-header" onclick="toggleInfo(this)">
+                                Flask<br>
+                                <progress value="65" max="100" class="progress"></progress>
+                            </div>
+                            <div class="info-content" style="display: none;">
+                                <ul>
+                                    <li>Данный проект реализован на Flask</li>
+                                    <li>Есть опыт работы с ORM</li>
+                                    <li>Умею работать с шаблонизатором, создавать формы.</li>
+                                    <li>Код: <a href="https://github.com/ThisIsKekWay/CV">Код проекта</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="info-container">
+                            <div class="info-header" onclick="toggleInfo(this)">
+                                SQL<br>
+                                <progress value="50" max="100" class="progress"></progress>
+                            </div>
+                            <div class="info-content" style="display: none;">
+                                <ul>
+                                    <li>Могу создать запросы низкой и средней сложности.</li>
+                                    <li>Работал c MySQL в Workbench и SQLite3 в терминале.</li>
+                                    <li>С гуглом могу создавать процедуры</li>
+                                    <li>Примеры: <a href="https://github.com/ThisIsKekWay/SQL/">Домашки</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="info-container">
+                            <div class="info-header" onclick="toggleInfo(this)">
+                                Docker<br>
+                                <progress value="70" max="100" class="progress"></progress>
+                            </div>
+                            <div class="info-content" style="display: none;">
+                                <ul>
+                                    <li>Могу создавать Dockerfile малого и среднего объёма.</li>
+                                    <li>Работал с Docker в терминале Linux</li>
+                                    <li>Освоил Docker Compose</li>
+                                    <li>Однажды поднял кластер Docker Swarm на удаленных серверах по SSH</li>
+                                    <li>Примеры: <a href="https://github.com/ThisIsKekWay/Containers">Домашки</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="info-container">
+                            <div class="info-header" onclick="toggleInfo(this)">
+                                Fast API<br>
+                                <progress value="80" max="100" class="progress"></progress>
+                            </div>
+                            <div class="info-content" style="display: none;">
+                                <ul>
+                                    <li> На учебном проекте написал бэкенд для серсвиса бронирования отелей</li>
+                                    <li> Использовал Depends, middleware, redis, celery, flower etc.</li>
+                                    <li> ПОзнакомился с версионированием документации</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="info-container">
+                            <div class="info-header" onclick="toggleInfo(this)">
+                                Linux<br>
+                                <progress value="50" max="100" class="progress"></progress>
+                            </div>
+                            <div class="info-content" style="display: none;">
+                                <ul>
+                                    <li>Пожил некоторое время в терминале на виртуальной машине.</li>
+                                    <li>На курсах управлял правами групп и пользователей.</li>
+                                    <li>Поработал с планировщиком cron.</li>
+                                    <li>С гуглом и конспектами смогу написать bash-скрипты</li>
+                                    <li>Однажды настроил связку nginx + apache2 для виртуалки</li>
+                                    <li>Пример: <a href="https://github.com/ThisIsKekWay/Linux">Домашки</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="info-container">
+                            <div class="info-header" onclick="toggleInfo(this)">
+                                Git<br>
+                                <progress value="60" max="100" class="progress"></progress>
+                            </div>
+                            <div class="info-content" style="display: none;">
+                                <ul>
+                                    <li>Работал с Git и в IDE и в терминале</li>
+                                    <li>Создаю, сращиваю ветки.</li>
+                                    <li>Могу оформить pull-request с форкнутого репо.</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="info-container">
+                            <div class="info-header" onclick="toggleInfo(this)">
+                                HTML + CSS<br>
+                                <progress value="81" max="100" class="progress"></progress>
+                            </div>
+                            <div class="info-content" style="display: none;">
+                                <ul>
+                                    <li>Знаю тэги, могу их использовать.</li>
+                                    <li>Могу сверстать сайт с адаптивом через медиа-запросы. (Этот сайт тоже
+                                        поддерживает адаптив.)
+                                    </li>
+                                    <li>Обучался в основном на практике, методом проб и ошибок, значит знания рваные и
+                                        не совсем структурированные.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="info-container">
+                            <div class="info-header" onclick="toggleInfo(this)">
+                                Алгоритмы и структуры данных<br>
+                                <progress value="45" max="100" class="progress"></progress>
+                            </div>
+                            <div class="info-content" style="display: none;">
+                                <ul>
+                                    <li>С подсказками из конспектов смогу реализовать сортировки, поиски.</li>
+                                    <li>Разобрался со связными списками, сейчас изучаю деревья</li>
+                                    <li>Могу оценивать пространственную и временную сложность алгоритма</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="info-container">
+                            <div class="info-header" onclick="toggleInfo(this)">
+                                Тестирование<br>
+                                <progress value="80" max="100" class="progress"></progress>
+                            </div>
+                            <div class="info-content" style="display: none;">
+                                <ul>
+                                    <li>Docktest, unitest, pytest</li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                 </div>
-
-                <div class="info-container">
-                    <div class="info-header" onclick="toggleInfo(this)">
-                        Django<br>
-                        <progress value="75" max="100" class="progress"></progress>
-                    </div>
-                    <div class="info-content" style="display: none;">
-                        <ul>
-                            <li>Знаю структуру проекта.</li>
-                            <li>Есть опыт работы с ORM</li>
-                            <li>Умею работать с шаблонизатором, создавать формы.</li>
-                            <li>Знаю как настроить админ-панель</li>
-                            <li>Могу собрать рабочий билд маркетплейса. <a href="https://kekway.pythonanywhere.com/">Проект</a></li>
-                            <li>Код: <a href="https://github.com/ThisIsKekWay/marketplace" >Ссылка</a></li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="info-container">
-                    <div class="info-header" onclick="toggleInfo(this)">
-                        Flask<br>
-                        <progress value="65" max="100" class="progress"></progress>
-                    </div>
-                    <div class="info-content" style="display: none;">
-                        <ul>
-                            <li>Данный проект реализован на Flask</li>
-                            <li>Есть опыт работы с ORM</li>
-                            <li>Умею работать с шаблонизатором, создавать формы.</li>
-                            <li>Код: <a href="https://github.com/ThisIsKekWay/CV" >Код проекта</a></li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="info-container">
-                    <div class="info-header" onclick="toggleInfo(this)">
-                        SQL<br>
-                        <progress value="50" max="100" class="progress"></progress>
-                    </div>
-                    <div class="info-content" style="display: none;">
-                        <ul>
-                            <li>Могу создать запросы низкой и средней сложности.</li>
-                            <li>Работал c MySQL в Workbench и SQLite3 в терминале.</li>
-                            <li>С гуглом могу создавать процедуры</li>
-                            <li>Примеры: <a href="https://github.com/ThisIsKekWay/SQL/" >Домашки</a></li>
-                        </ul>
-                    </div>
-                </div>
-
-                 <div class="info-container">
-                    <div class="info-header" onclick="toggleInfo(this)">
-                        Docker<br>
-                        <progress value="70" max="100" class="progress"></progress>
-                    </div>
-                    <div class="info-content" style="display: none;">
-                        <ul>
-                            <li>Могу создавать Dockerfile малого и среднего объёма.</li>
-                            <li>Работал с Docker в терминале Linux</li>
-                            <li>Освоил Docker Compose</li>
-                            <li>Однажды поднял кластер Docker Swarm на удаленных серверах по SSH</li>
-                            <li>Примеры: <a href="https://github.com/ThisIsKekWay/Containers" >Домашки</a></li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="info-container">
-                    <div class="info-header" onclick="toggleInfo(this)">
-                        Fast API<br>
-                        <progress value="80" max="100" class="progress"></progress>
-                    </div>
-                    <div class="info-content" style="display: none;">
-                        <ul>
-                            <li> На учебном проекте написал бэкенд для серсвиса бронирования отелей </li>
-                            <li> Использовал Depends, middleware, redis, celery, flower etc. </li>
-                            <li> ПОзнакомился с версионированием документации</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="info-container">
-                    <div class="info-header" onclick="toggleInfo(this)">
-                        Linux<br>
-                        <progress value="50" max="100" class="progress"></progress>
-                    </div>
-                    <div class="info-content" style="display: none;">
-                        <ul>
-                            <li>Пожил некоторое время в терминале на виртуальной машине.</li>
-                            <li>На курсах управлял правами групп и пользователей.</li>
-                            <li>Поработал с планировщиком cron.</li>
-                            <li>С гуглом и конспектами смогу написать bash-скрипты</li>
-                            <li>Однажды настроил связку nginx + apache2 для виртуалки</li>
-                            <li>Пример: <a href="https://github.com/ThisIsKekWay/Linux" >Домашки</a></li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="info-container">
-                    <div class="info-header" onclick="toggleInfo(this)">
-                        Git<br>
-                        <progress value="60" max="100" class="progress"></progress>
-                    </div>
-                    <div class="info-content" style="display: none;">
-                        <ul>
-                            <li>Работал с Git и в IDE и в терминале</li>
-                            <li>Создаю, сращиваю ветки.</li>
-                            <li>Могу оформить pull-request с форкнутого репо.</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="info-container">
-                    <div class="info-header" onclick="toggleInfo(this)">
-                        HTML + CSS<br>
-                        <progress value="81" max="100" class="progress"></progress>
-                    </div>
-                    <div class="info-content" style="display: none;">
-                        <ul>
-                            <li>Знаю тэги, могу их использовать.</li>
-                            <li>Могу сверстать сайт с адаптивом через медиа-запросы. (Этот сайт тоже поддерживает адаптив.)</li>
-                            <li>Обучался в основном на практике, методом проб и ошибок, значит знания рваные и не совсем структурированные.</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="info-container">
-                    <div class="info-header" onclick="toggleInfo(this)">
-                        Алгоритмы и структуры данных<br>
-                        <progress value="45" max="100" class="progress"></progress>
-                    </div>
-                    <div class="info-content" style="display: none;">
-                        <ul>
-                            <li>С подсказками из конспектов смогу реализовать сортировки, поиски.</li>
-                            <li>Разобрался со связными списками, сейчас изучаю деревья</li>
-                            <li>Могу оценивать пространственную и временную сложность алгоритма</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="info-container">
-                    <div class="info-header" onclick="toggleInfo(this)">
-                        Тестирование<br>
-                        <progress value="80" max="100" class="progress"></progress>
-                    </div>
-                    <div class="info-content" style="display: none;">
-                        <ul>
-                            <li>Docktest, unitest, pytest</li>
-                        </ul>
-                    </div>
-                </div>
-
             </div>
         </div>
     </div>
-        </div>
-    </div>
 
-    
 
-    
-        
     <div class="main_info">
         <div class="info-header_port">
             <h1>Список реализованных проектов</h1>
@@ -225,7 +228,8 @@
         <div class="projects">
             <div class="info-container">
                 <div class="info-photo">
-                    <img class="proj_photo" src="/statickCV/static/img/ecom.png" onclick="kekway.pythonanywhere.com" alt="Авито курильщика">
+                    <img class="proj_photo" src="/statickCV/static/img/ecom.png" onclick="kekway.pythonanywhere.com"
+                         alt="Авито курильщика">
                 </div>
                 <div class="info-header_port">
                     Торговая площадка<br>
@@ -239,7 +243,7 @@
                             Авито. Создан адаптивный дизайн для мобильных устройств.
                         </li>
                         <li>Развернутый проект: <a href="https://kekway.pythonanywhere.com/"> Тык</a></li>
-                        <li>Код: <a href="https://github.com/ThisIsKekWay/marketplace" > Тык </a></li>
+                        <li>Код: <a href="https://github.com/ThisIsKekWay/marketplace"> Тык </a></li>
                     </ul>
                 </div>
             </div>
@@ -265,7 +269,7 @@
                             "ГОРОД".xlsx. Может быть полезно для мониторинга цен в других городах.
                             Упакован в .exe.
                         </li>
-                        <li>Код: <a href="https://github.com/ThisIsKekWay/Farfor_Parser" > Тык </a></li>
+                        <li>Код: <a href="https://github.com/ThisIsKekWay/Farfor_Parser"> Тык </a></li>
                     </ul>
                 </div>
             </div>
@@ -289,33 +293,35 @@
                             мастеру с автоматическим оформлением заявки.
                             Мастер получает полную информацию о заказе и объекте и связывается с заказчиком в телеграм.
                         </li>
-                        <li>Код: <a href="https://github.com/ThisIsKekWay/TelegramElectromontazhBot" > Тык </a></li>
+                        <li>Код: <a href="https://github.com/ThisIsKekWay/TelegramElectromontazhBot"> Тык </a></li>
                     </ul>
                 </div>
 
                 <div class="info-container">
-                <div class="info-photo">
-                    <img class="proj_photo" src="/statickCV/static/img/Screenshot_from_2024-03-19_16-54-00.png" alt="API убежал">
+                    <div class="info-photo">
+                        <img class="proj_photo" src="/statickCV/static/img/Screenshot_from_2024-03-19_16-54-00.png"
+                             alt="API убежал">
+                    </div>
+                    <div class="info-header_port">
+                        Backend для сервиса объявлений<br>
+                    </div>
+                    <div class="info-content_port">
+                        <ul>
+                            <li>Стэк: Python, PostgreSQL, FastAPI, SQLAlchemy</li>
+                            <li>Описание: Кучка эндпоинтов на FastAPI, Async I/O в БД, аутентификация, регистрация.
+                                Реализованы группы пользователей, управление контентом и пользователями.
+                                Писалось в рамках тестового задания.
+                            </li>
+                            <li>Код: <a href="https://github.com/ThisIsKekWay/ProdInsTest"> Тык </a></li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="info-header_port">
-                    Backend для сервиса объявлений<br>
-                </div>
-                <div class="info-content_port">
-                    <ul>
-                        <li>Стэк: Python, PostgreSQL, FastAPI, SQLAlchemy</li>
-                        <li>Описание: Кучка эндпоинтов на FastAPI, Async I/O в БД, аутентификация, регистрация.
-                            Реализованы группы пользователей, управление контентом и пользователями.
-                            Писалось в рамках тестового задания.
-                        </li>
-                        <li>Код: <a href="https://github.com/ThisIsKekWay/ProdInsTest" > Тык </a></li>
-                    </ul>
-                </div>
-            </div>
             </div>
 
             <div class="info-container">
                 <div class="info-photo">
-                    <img class="proj_photo" src="/statickCV/static/img/Screenshot_from_2024-03-19_16-54-00.png" alt="API убежал">
+                    <img class="proj_photo" src="/statickCV/static/img/Screenshot_from_2024-03-19_16-54-00.png"
+                         alt="API убежал">
                 </div>
                 <div class="info-header_port">
                     Backend для сервиса объявлений<br>
@@ -327,59 +333,53 @@
                             Реализованы группы пользователей, управление контентом и пользователями.
                             Писалось в рамках тестового задания.
                         </li>
-                        <li>Код: <a href="https://github.com/ThisIsKekWay/ProdInsTest" > Тык </a></li>
+                        <li>Код: <a href="https://github.com/ThisIsKekWay/ProdInsTest"> Тык </a></li>
                     </ul>
                 </div>
             </div>
         </div>
     </div>
 
-    
 
-    
-        
     <div class="main_info">
         <div class="info-header_port">
             <h1>Как связаться со мной</h1>
         </div>
 
-                <div class="contact_box">
+        <div class="contact_box">
+            <div class="contact_item">
+                <h2 class="contactbox_header">Telegram</h2>
+                <img src="/statickCV/static/img/QR-Code-TG.png"
+                     class="text-center mx-auto"
+                     width="330"
+                     height="330"
+                     border="0"
+                     title="QR код">
+                <a href="https://t.me/Sugar_King"
+                   class="w-full mt-6 flex justify-center hover:underline" style="font-size: 1rem; font-weight: 700">
+                    @Sugar_King
+                </a>
+            </div>
 
-                    <div class="contact_item">
-                        <h2 class="contactbox_header">Telegram</h2>
-                        <img src="/statickCV/static/img/QR-Code-TG.png"
-                             class="text-center mx-auto"
-                             width="330"
-                             height="330"
-                             border="0"
-                             title="QR код">
-                        <a href="https://t.me/Sugar_King"
-                           class="w-full mt-6 flex justify-center hover:underline" style="font-size: 1rem; font-weight: 700">
-                            @Sugar_King
-                        </a>
-                    </div>
+            <div class="contact_item">
+                <h2 class="contactbox_header">Информация</h2>
+                <h3 class="text-lg text-center">E-mail</h3>
+                <h4 class="mb-2 text-center">kkozlov1997@mail.ru</h4><br>
+            </div>
 
-                    <div class="contact_item">
-                        <h2 class="contactbox_header">Информация</h2>
-                        <h3 class="text-lg text-center">E-mail</h3>
-                        <h4 class="mb-2 text-center">kkozlov1997@mail.ru</h4><br>
-                    </div>
-
-                    <div class="contact_item">
-                        <h2 class="contactbox_header">Github</h2>
-                        <img src="/statickCV/static/img/QR-Code-Git.png"
-                             class="text-center mx-auto"
-                             width="330"
-                             height="330"
-                             border="0"
-                             title="QR код">
-                        <a href="https://github.com/ThisIsKekWay"
-                           class="w-full py-8 flex justify-center hover:underline" style="font-size: 1rem; font-weight: 700"
-                           target="_blank">
-                            ThisIsKekWay
-                        </a>
-                    </div>
-                </div>
+            <div class="contact_item">
+                <h2 class="contactbox_header">Github</h2>
+                <img src="/statickCV/static/img/QR-Code-Git.png"
+                     class="text-center mx-auto"
+                     width="330"
+                     height="330"
+                     border="0"
+                     title="QR код">
+                <a href="https://github.com/ThisIsKekWay"
+                   class="w-full py-8 flex justify-center hover:underline" style="font-size: 1rem; font-weight: 700"
+                   target="_blank">
+                    ThisIsKekWay
+                </a>
             </div>
         </div>
     </div>
