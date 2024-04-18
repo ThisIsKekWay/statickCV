@@ -38,6 +38,18 @@
                         </li>
                     </ul>
                 </div>
+
+                <div class="info-container">
+                    <div class="info-header" onclick="toggleInfo(this)">
+                        Тестирование<br>
+                        <progress value="80" max="100" class="progress"></progress>
+                    </div>
+                    <div class="info-content" style="display: none;">
+                        <ul>
+                            <li>Docktest, unitest, pytest</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
 
@@ -134,9 +146,9 @@
                     </div>
                     <div class="info-content" style="display: none;">
                         <ul>
-                            <li>Знаю минимальную базу.</li>
-                            <li>Смог напистаь APIшку для сервиса объявлений.</li>
-                            <li>Поработал с async i/o в бд</li>
+                            <li> На учебном проекте написал бэкенд для серсвиса бронирования отелей </li>
+                            <li> Использовал Depends, middleware, redis, celery, flower etc. </li>
+                            <li> ПОзнакомился с версионированием документации</li>
                         </ul>
                     </div>
                 </div>
@@ -319,6 +331,25 @@
                 </div>
             </div>
             </div>
+
+            <div class="info-container">
+                <div class="info-photo">
+                    <img class="proj_photo" src="/statickCV/static/img/Screenshot_from_2024-03-19_16-54-00.png" alt="API убежал">
+                </div>
+                <div class="info-header_port">
+                    Backend для сервиса объявлений<br>
+                </div>
+                <div class="info-content_port">
+                    <ul>
+                        <li>Стэк: Python, PostgreSQL, FastAPI, SQLAlchemy</li>
+                        <li>Описание: Кучка эндпоинтов на FastAPI, Async I/O в БД, аутентификация, регистрация.
+                            Реализованы группы пользователей, управление контентом и пользователями.
+                            Писалось в рамках тестового задания.
+                        </li>
+                        <li>Код: <a href="https://github.com/ThisIsKekWay/ProdInsTest" > Тык </a></li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -371,9 +402,6 @@
         </div>
 
     </div>
-
-    
-
 </div>
 <script src="/statickCV/static/js/toggle.js"></script>
 </body>
