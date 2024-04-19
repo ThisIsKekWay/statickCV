@@ -298,20 +298,21 @@
 
                 <div class="info-container">
                     <div class="info-photo">
-                        <img class="proj_photo" src="/statickCV/static/img/Screenshot_from_2024-03-19_16-54-00.png"
+                        <img class="proj_photo" src="/statickCV/static/img/booking_api.png"
                              alt="API убежал">
                     </div>
                     <div class="info-header_port">
-                        Backend для сервиса объявлений<br>
+                        Backend для сервиса бронирования отелей<br>
                     </div>
                     <div class="info-content_port">
                         <ul>
-                            <li>Стэк: Python, PostgreSQL, FastAPI, SQLAlchemy</li>
-                            <li>Описание: Кучка эндпоинтов на FastAPI, Async I/O в БД, аутентификация, регистрация.
-                                Реализованы группы пользователей, управление контентом и пользователями.
-                                Писалось в рамках тестового задания.
+                            <li>Стэк: Python, PostgreSQL, FastAPI, SQLAlchemy, redis, celery, etc</li>
+                            <li>Описание: Кучка эндпоинтов на FastAPI, Async I/O в БД, аутентификация, регистрация
+                                через jwt. Создание, удалений бронирований, админ панель. Подключен sentry.
+                                Выполнялось в рамках углубленного курса по FastAPI, работа продолжается в данный момент.
+                                В планах упаковка в контейнер и деплой.
                             </li>
-                            <li>Код: <a href="https://github.com/ThisIsKekWay/ProdInsTest"> Тык </a></li>
+                            <li>Код: <a href="https://github.com/ThisIsKekWay/FastApiBooking"> Тык </a></li>
                         </ul>
                     </div>
                 </div>
